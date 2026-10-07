@@ -10,8 +10,8 @@ for word in text.split():
         if letter not in string.punctuation:
             new_word = new_word + letter
 
-    word = word.capitalize()
-    words.append(word)
+    new_word = new_word.capitalize()
+    words.append(new_word)
 
 hashtag = "".join(words)
 hashtag = '#' + hashtag
